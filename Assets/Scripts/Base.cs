@@ -32,7 +32,10 @@ public class Base : MonoBehaviour
 
     public void AttackWithCatapult()
     {
-        Debug.Log("Used Attack with catapult");
+     
+        catapult.Fire();
+        
+        
     }
 
     public void AttackWithRay()
@@ -57,6 +60,7 @@ public class Base : MonoBehaviour
 
     private void TakeDamage(Projectile projectile)
     {
+       
     }
 
     // Use this for initialization
@@ -73,6 +77,7 @@ public class Base : MonoBehaviour
     {
         if (canAttack)
         {
+            AttackWithCatapult();
         }
     }
 }

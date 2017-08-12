@@ -10,6 +10,7 @@ public class RayBeam : MonoBehaviour
 
     public Vector3 targetLocation;
     private Vector3 targetDirection;
+    
 
     public float DamagePts
     {
@@ -21,6 +22,7 @@ public class RayBeam : MonoBehaviour
 
     public void Fire()
     {
+    
     }
 
     private void OnDrawGizmos()
